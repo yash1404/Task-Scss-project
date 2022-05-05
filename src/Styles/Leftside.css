@@ -1,0 +1,105 @@
+/*yellow: #ffbb53
+dark grey: #141522
+light grey: #f8f8fa*/
+.main-box {
+  padding: 20px 0 0 20px;
+}
+
+.info h4 {
+  font-size: 5rem;
+  color: #141522;
+  font-family: "Work Sans", sans-serif;
+}
+
+.info p {
+  font-size: 1.3rem;
+  color: #bdbdbd;
+  font-family: "Work Sans", sans-serif;
+  width: 40%;
+  margin-top: 20px;
+}
+
+.image-sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 40px;
+}
+
+.image-sec .right-side-img {
+  margin-left: 30px;
+}
+
+.image-sec .circle-img {
+  border-radius: 15px;
+}
+
+.bottom-sec {
+  margin-top: 30px;
+}
+
+.bottom-sec h1 {
+  color: #141522;
+  font-family: "Work Sans", sans-serif;
+  font-size: 3rem;
+}
+
+.bottom-sec .bottom-info-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+  width: 80%;
+}
+
+.bottom-sec .bottom-info-container .bottom-info h1 {
+  color: #bdbdbd;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+.bottom-sec .bottom-info-container .bottom-info p {
+  color: #141522;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.bottom-sec .bottom-info-container .bottom-info-two {
+  width: 30%;
+}
+
+.bottom-sec .bottom-info-container .bottom-info-two h1 {
+  color: #bdbdbd;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.5rem;
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.bottom-sec .bottom-info-container .bottom-info-two p {
+  color: #141522;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.5rem;
+  width: 100%;
+  word-spacing: 10px;
+  margin-top: 20px;
+  font-weight: 600;
+  text-align: justify;
+}
+/*# sourceMappingURL=Leftside.css.map */

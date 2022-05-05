@@ -1,0 +1,23 @@
+/*yellow: #ffbb53
+dark grey: #141522
+light grey: #f8f8fa*/
+
+
+
+// font colors....
+$yellowcolor:#ffbb53;
+$darkgraycolor:#141522;
+$lightgraycolor:#f8f8fa;
+
+// font-family
+$fontfamily:'Work Sans', sans-serif;
+
+// mixins
+@mixin lightgray {
+    color: #bdbdbd;
+    font-family: $fontfamily;
+}
+@mixin darkgray{
+    color:$darkgraycolor;
+    font-family:$fontfamily;
+}

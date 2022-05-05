@@ -1,0 +1,36 @@
+/*yellow: #ffbb53
+dark grey: #141522
+light grey: #f8f8fa*/
+.sidenavbar {
+  height: 100%;
+  width: 80px;
+  border-right: 2px solid #dddbdb;
+}
+
+.sidenavbar .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sidenavbar .icons .active {
+  color: #141522;
+  font-size: 2rem;
+}
+
+.sidenavbar .icons span {
+  margin-top: 35px;
+  font-size: 2rem;
+  color: #bdb8b8;
+}
+/*# sourceMappingURL=Sidenavbar.css.map */

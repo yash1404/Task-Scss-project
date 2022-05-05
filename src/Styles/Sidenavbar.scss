@@ -1,0 +1,22 @@
+@import "../Variables/Variable.scss";
+.sidenavbar {
+    height: 100%;
+    width: 80px;
+    border-right: 2px solid #dddbdb;
+
+    .icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .active {
+            color: $darkgraycolor;
+            font-size: 2rem;
+        }
+        span {
+            margin-top: 35px;
+            font-size: 2rem;
+            color: #bdb8b8;
+        }
+    }
+}

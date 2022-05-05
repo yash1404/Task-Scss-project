@@ -1,0 +1,119 @@
+/*yellow: #ffbb53
+dark grey: #141522
+light grey: #f8f8fa*/
+.Right-hand-side {
+  padding-top: 30px;
+  padding-left: 30px;
+  background-color: #f8f8fa;
+  height: 100%;
+}
+
+.Right-hand-side .top-head {
+  font-size: 3rem;
+  color: #141522;
+  font-family: "Work Sans", sans-serif;
+}
+
+.Right-hand-side .img-cartoon {
+  width: 100%;
+}
+
+.Right-hand-side .img-cartoon img {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.Right-hand-side .box {
+  position: relative;
+  background-color: #fff;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 30px 0 30px 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 0 20px 1px #bdb8b8;
+          box-shadow: 1px 0 20px 1px #bdb8b8;
+}
+
+.Right-hand-side .box .play-circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ffbb53;
+  text-align: center;
+  position: absolute;
+  right: 20px;
+  top: -28px;
+  -webkit-box-shadow: 1px 0 20px 1px #bdb8b8;
+          box-shadow: 1px 0 20px 1px #bdb8b8;
+}
+
+.Right-hand-side .box .play-circle span .playbtn {
+  font-size: 2rem;
+  margin-top: 19px;
+  margin-left: 3px;
+}
+
+.Right-hand-side .box .progressbar {
+  height: 7px;
+  width: 50%;
+  background-color: #e9e6e6;
+  border-radius: 20px;
+}
+
+.Right-hand-side .box .progressbar .inside-bar {
+  width: 30%;
+  height: 7px;
+  background-color: #ffbb53;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.Right-hand-side .box h3 {
+  color: #141522;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.8rem;
+  margin-top: 15px;
+  font-weight: 500;
+  width: 70%;
+}
+
+.Right-hand-side .box p {
+  color: #bdbdbd;
+  font-family: "Work Sans", sans-serif;
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+
+.Right-hand-side .last-sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+  margin: 40px auto 40px auto;
+}
+
+.Right-hand-side .last-sec .left-sec-last p {
+  color: #bdbdbd;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.Right-hand-side .last-sec .right-sec-last p {
+  color: #141522;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.Right-hand-side .last-sec .right-sec-last p:nth-child(2) {
+  margin-left: 60px;
+}
+/*# sourceMappingURL=Rightside.css.map */
